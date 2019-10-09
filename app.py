@@ -17,3 +17,6 @@ def predict():
    response = {'prediction': prediction.tolist(), 'probability':probab.tolist()}
 
    return flask.jsonify(response)
+
+if __name__ == "__main__":
+    app.run()
