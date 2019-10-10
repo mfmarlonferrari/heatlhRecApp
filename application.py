@@ -3,7 +3,7 @@ import flask
 import os
 import numpy as np
 
-app = flask.Flask(__name__)
+application = flask.Flask(__name__)
 
 model = pickle.load(open("xgb_card_80auc.pkl","rb"))
    
@@ -18,5 +18,5 @@ def predict():
    return flask.jsonify(response)
 
 if __name__ == "__main__":
-   app.debug = True
-   app.run()
+   application.debug = True
+   application.run()
