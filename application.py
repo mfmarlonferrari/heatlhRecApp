@@ -4,7 +4,8 @@ import os
 import numpy as np
 
 application = flask.Flask(__name__)
-
+port = int(os.getenv("VCAP_APP_PORT"))
+           
 model = pickle.load(open("xgb_card_80auc.pkl","rb"))
    
 @app.route('/predict', methods=['POST'])
@@ -18,5 +19,4 @@ def predict():
    return flask.jsonify(response)
 
 if __name__ == "__main__":
-   application.debug = True
-   application.run()
+   application.run(host="0.0.0.0", port=port)
