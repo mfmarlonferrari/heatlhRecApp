@@ -24,4 +24,4 @@ Visando possibilitar acessibilidade deste trabalho para a população em geral, 
 
 Como objetivo final do projeto, visamos contribuir para que o indivíduo seja conscientizado a buscar a melhoria de sua saúde cardiovascular, bem como de conscientização de consultas aos profissionais da saúde para tratamento e prevenção de doenças cardíacas.
 
-https://i.ibb.co/Xy32Nb7/Screenshot-1.png
+<img src="https://i.ibb.co/Xy32Nb7/Screenshot-1.png">
